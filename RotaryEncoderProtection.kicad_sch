@@ -2735,6 +2735,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt.de" "SMD-0805 10,0K"
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c3dfff54-79b9-403e-86d8-2aa7c5a73114")
 		)
@@ -2881,6 +2890,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt.de" "SMD-0805 10,0K"
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f7f3ff0f-1e3c-412e-831f-7033dadb53ca")
 		)
@@ -3017,6 +3035,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt.de" "SMD ZF 24"
+			(at 118.11 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bc6fd19e-aa0f-4e0a-9255-cfeee0a0424b")
 		)
@@ -3069,7 +3096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C120/DBR1-MXX-L.pdf"
 			(at 62.23 68.58 0)
 			(effects
 				(font
@@ -3079,6 +3106,15 @@
 			)
 		)
 		(property "Description" "9-pin male plug pin D-SUB connector, Mounting Hole"
+			(at 62.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "D-SUB ST 09US"
 			(at 62.23 68.58 0)
 			(effects
 				(font
@@ -3180,6 +3216,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt.de" "X7R-G0805 100N"
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10d146f6-23cd-4562-9c41-b466a627fc2e")
 		)
@@ -3239,6 +3284,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 83.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD-0805 10,0K"
 			(at 83.82 71.12 0)
 			(effects
 				(font
@@ -3315,6 +3369,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt.de" "SMD-0805 22,0"
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "47c577c4-2e8b-4532-b06d-efef579d5f00")
 		)
@@ -3378,6 +3441,15 @@
 		)
 		(property "Description" "24V, 500mW, 2%, Zener diode, MiniMELF"
 			(at 156.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD ZF 24"
+			(at 156.21 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,6 +3543,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt.de" "1N 4148W DIO"
+			(at 81.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f399f240-1d03-4c46-a672-62b7e4e568c7")
 		)
@@ -3533,6 +3614,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 144.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "RAD 22/35"
 			(at 144.78 53.34 0)
 			(effects
 				(font
@@ -3611,6 +3701,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt.de" "SMD-0805 10,0K"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3a96efd1-ea6c-4ff8-b5a7-c87b1da83c23")
 		)
@@ -3673,6 +3772,15 @@
 		)
 		(property "Description" "24V, 500mW, 2%, Zener diode, MiniMELF"
 			(at 104.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD ZF 24"
+			(at 104.14 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
