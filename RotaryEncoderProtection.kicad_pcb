@@ -135,7 +135,7 @@
 		(descr "Soldered wire connection, for a single 2.5 mm² wire, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 2.5sqmm")
 		(property "Reference" "J2"
-			(at 0 3.5 90)
+			(at 3.5 0 180)
 			(layer "F.SilkS")
 			(uuid "f91bf7e7-9929-4af0-ac2e-0ea746f2dec6")
 			(effects
@@ -293,9 +293,8 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C2"
-			(at 1 -3.75 90)
+			(at 0.955112 3.5 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "427d5270-31ce-4adc-a06d-57fe98d3c763")
 			(effects
 				(font
@@ -305,7 +304,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 1 3.75 90)
+			(at 1 -3.5 90)
 			(layer "F.Fab")
 			(uuid "ede96975-d136-4982-8fcc-8478b10ae76c")
 			(effects
@@ -1603,7 +1602,7 @@
 			(uuid "0389bc62-621a-43c1-b777-eb65bd846124")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 0 90)
+			(at 0.955112 0 90)
 			(layer "F.Fab")
 			(uuid "45a65e4f-f46e-41f7-8a8e-e702d53d9341")
 			(effects
@@ -2230,7 +2229,7 @@
 		(descr "Soldered wire connection, for 4 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.75sqmm")
 		(property "Reference" "J3"
-			(at 7.1 2.495 90)
+			(at 7.1 -1.505 90)
 			(layer "F.SilkS")
 			(uuid "da5f6bae-4971-4cf6-87aa-d048a0c4846a")
 			(effects
@@ -2574,7 +2573,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 1.65 0)
+			(at 0 -1.5 0)
 			(layer "B.SilkS")
 			(uuid "6f1f47fb-071f-44d0-ae25-1be48c5675b0")
 			(effects
@@ -3122,7 +3121,7 @@
 		(descr "Diode Mini-MELF (SOD-80)")
 		(tags "Diode Mini-MELF (SOD-80)")
 		(property "Reference" "D4"
-			(at 0 2 0)
+			(at 0 -2 0)
 			(layer "B.SilkS")
 			(uuid "fcc2c542-aced-48f4-afc8-d4e0fc0864eb")
 			(effects
@@ -3423,7 +3422,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 1.65 0)
+			(at 0 -1.5 0)
 			(layer "B.SilkS")
 			(uuid "d64e53a5-9561-42f2-a752-e9205a60afa6")
 			(effects
@@ -3642,7 +3641,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 1.65 0)
+			(at 0 -1.5 0)
 			(layer "B.SilkS")
 			(uuid "5035a163-e347-488e-bac2-3f6969ae0a1f")
 			(effects
@@ -4381,7 +4380,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 1.68 0)
+			(at 0 -1.5 0)
 			(layer "B.SilkS")
 			(uuid "1ecc4c43-3f04-4621-9e40-4a267f4174de")
 			(effects
@@ -4819,7 +4818,7 @@
 		(descr "Diode Mini-MELF (SOD-80)")
 		(tags "Diode Mini-MELF (SOD-80)")
 		(property "Reference" "D2"
-			(at 0 2 0)
+			(at 0 -2 0)
 			(layer "B.SilkS")
 			(uuid "430baf08-f4e8-4250-b68d-d6924ed1b89f")
 			(effects
@@ -10833,10 +10832,70 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Black"
+		(at 103 52 90)
+		(layer "B.SilkS")
+		(uuid "38632c02-4ff2-48f6-bfdb-e9eb105b6e0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "White"
+		(at 103 57 90)
+		(layer "B.SilkS")
+		(uuid "514840c5-d9aa-475f-bc7f-89df1315f409")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Red"
+		(at 103 67 90)
+		(layer "B.SilkS")
+		(uuid "74fbc46c-31c8-487d-a976-a0613632532c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Green"
+		(at 103 61.5 90)
+		(layer "B.SilkS")
+		(uuid "7778607e-1602-4cf2-aabc-cdb4c9b70882")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Shield"
 		(at 97.5 45 90)
 		(layer "B.SilkS")
 		(uuid "7e27f279-f61b-4d0a-9124-39183cf6cacb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Silver"
+		(at 104.5 45.5 90)
+		(layer "B.SilkS")
+		(uuid "97e4d119-37b8-4f94-b5b4-a9e923533e41")
 		(effects
 			(font
 				(size 1 1)
@@ -10867,6 +10926,18 @@
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Black"
+		(at 103 56 90)
+		(layer "F.SilkS")
+		(uuid "19e3c845-6418-447f-bd38-d66bbbc721bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "Shield"
@@ -10905,6 +10976,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Green"
+		(at 103 66 90)
+		(layer "F.SilkS")
+		(uuid "78ea4684-b2fa-45a9-8c34-dddfd9077e91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "White"
+		(at 103 61 90)
+		(layer "F.SilkS")
+		(uuid "7ba50edc-a54c-4101-a4f0-443247e9f1e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "A"
 		(at 98 64 90)
 		(layer "F.SilkS")
@@ -10917,10 +11012,34 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Silver"
+		(at 104.5 49.5 90)
+		(layer "F.SilkS")
+		(uuid "bd2061c6-36b5-4074-9729-a3453f2a26b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Copyright (c) 2024 Stefan Helmert"
 		(at 77.5 74 0)
 		(layer "F.SilkS")
 		(uuid "c335e2a0-9ae3-49a6-8873-7a6fa5347813")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Red"
+		(at 103 70 90)
+		(layer "F.SilkS")
+		(uuid "c8bcabd0-54c4-4f0c-9bb9-663107d604cc")
 		(effects
 			(font
 				(size 1 1)

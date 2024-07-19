@@ -555,7 +555,7 @@
       "specctra_dsn": "",
       "step": "RotaryEncoderProtection.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "RotaryEncoderProtection.wrl"
     },
     "page_layout_descr_file": ""
   },
