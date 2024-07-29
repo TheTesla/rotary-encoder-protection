@@ -1510,6 +1510,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1848,6 +1950,12 @@
 		)
 	)
 	(junction
+		(at 149.86 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "052451d5-74e5-41c1-8c72-504ac14213ca")
+	)
+	(junction
 		(at 132.08 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1864,6 +1972,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27c8b0f3-7c83-428e-8718-52951d5eeb7e")
+	)
+	(junction
+		(at 105.41 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e74b3e3-812d-49d1-8e89-0dc1da98321d")
 	)
 	(junction
 		(at 173.99 43.18)
@@ -1944,6 +2058,12 @@
 		(uuid "d85836e9-a8af-444c-b0f8-b096abf0873b")
 	)
 	(junction
+		(at 128.27 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0bc219b-f546-4a03-92a1-94ad5a9e288b")
+	)
+	(junction
 		(at 144.78 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1966,6 +2086,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eec63ee2-c14e-405f-bb2b-b3c5d74e2776")
+	)
+	(junction
+		(at 171.45 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7246762-6365-4c95-95f5-0ae6a568584b")
 	)
 	(wire
 		(pts
@@ -1996,6 +2122,16 @@
 			(type default)
 		)
 		(uuid "08813491-d06b-4dd7-b4ae-bac06be6ff80")
+	)
+	(wire
+		(pts
+			(xy 171.45 104.14) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0d6680-651d-4166-8779-f4d7cf930787")
 	)
 	(wire
 		(pts
@@ -2066,6 +2202,26 @@
 			(type default)
 		)
 		(uuid "21b4b25c-0233-460d-901e-572bbf1fc246")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 83.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254b0d29-b714-4113-9c13-46fa5ace4e8a")
+	)
+	(wire
+		(pts
+			(xy 128.27 104.14) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2797ab40-08d7-4e93-a239-4aaa629c3142")
 	)
 	(wire
 		(pts
@@ -2239,6 +2395,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 90.17) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b480aa-9e4b-41f7-be5b-319b9a4664e7")
+	)
+	(wire
+		(pts
 			(xy 118.11 43.18) (xy 132.08 43.18)
 		)
 		(stroke
@@ -2256,6 +2422,16 @@
 			(type default)
 		)
 		(uuid "6a7b63f6-3f71-4c08-8914-1a6636baaf8f")
+	)
+	(wire
+		(pts
+			(xy 83.82 104.14) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fee57f1-3601-40f6-912e-c9353ab352be")
 	)
 	(wire
 		(pts
@@ -2329,6 +2505,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 104.14) (xy 128.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8472e8ef-4f6a-409b-8faa-c11a1cc9209d")
+	)
+	(wire
+		(pts
 			(xy 69.85 71.12) (xy 73.66 71.12)
 		)
 		(stroke
@@ -2399,6 +2585,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 104.14) (xy 128.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65b045c-671c-4c1f-af7c-bccf9271e11e")
+	)
+	(wire
+		(pts
 			(xy 69.85 63.5) (xy 73.66 63.5)
 		)
 		(stroke
@@ -2426,6 +2622,16 @@
 			(type default)
 		)
 		(uuid "b1c11e93-e1e0-4bcb-b485-de9ce76c7507")
+	)
+	(wire
+		(pts
+			(xy 149.86 100.33) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45ce13d-5075-4606-8393-b88cfaa31b1d")
 	)
 	(wire
 		(pts
@@ -2566,6 +2772,16 @@
 			(type default)
 		)
 		(uuid "ead43282-c4f3-440d-8d98-b1f5ebd05c31")
+	)
+	(wire
+		(pts
+			(xy 105.41 100.33) (xy 105.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3b429c-7abb-4146-a7d3-df88d05ae7e3")
 	)
 	(wire
 		(pts
@@ -2976,6 +3192,158 @@
 			(project ""
 				(path "/b91e482a-d9e4-43cb-8d5f-2a9e037aa90a"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 83.82 97.79 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b230e5f-16ac-4aea-88b2-8f3fd547589b")
+		(property "Reference" "H1"
+			(at 86.36 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 86.36 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad_TopBottom"
+			(at 83.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 83.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" ""
+			(at 83.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f79abf5-ef5d-441a-ab27-a4602f4d0ade")
+		)
+		(instances
+			(project "RotaryEncoderProtection"
+				(path "/b91e482a-d9e4-43cb-8d5f-2a9e037aa90a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 149.86 97.79 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dba2565-1155-4283-8b3a-49f9f534c248")
+		(property "Reference" "H4"
+			(at 152.4 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 152.4 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad_TopBottom"
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" ""
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "790509e9-99a5-4769-bcc3-ebf07a00e8f8")
+		)
+		(instances
+			(project "RotaryEncoderProtection"
+				(path "/b91e482a-d9e4-43cb-8d5f-2a9e037aa90a"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3647,6 +4015,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 128.27 97.79 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfbff460-4773-4634-af36-47dc6178704f")
+		(property "Reference" "H3"
+			(at 130.81 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 130.81 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad_TopBottom"
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" ""
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8bb4f38-7ece-4b0b-881e-0c1b04cc6598")
+		)
+		(instances
+			(project "RotaryEncoderProtection"
+				(path "/b91e482a-d9e4-43cb-8d5f-2a9e037aa90a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 104.14 53.34 180)
 		(unit 1)
@@ -3798,6 +4242,82 @@
 			(project "RotaryEncoderProtection"
 				(path "/b91e482a-d9e4-43cb-8d5f-2a9e037aa90a"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 105.41 97.79 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d150cb1d-ddb3-4d92-afda-5a47920e8432")
+		(property "Reference" "H2"
+			(at 107.95 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 107.95 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad_TopBottom"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" ""
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a98ee42b-ddab-44e8-bb26-dceb1f83b399")
+		)
+		(instances
+			(project "RotaryEncoderProtection"
+				(path "/b91e482a-d9e4-43cb-8d5f-2a9e037aa90a"
+					(reference "H2")
 					(unit 1)
 				)
 			)
