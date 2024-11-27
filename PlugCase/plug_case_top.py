@@ -23,6 +23,6 @@ def f(x, y, z):
     return True
 
 
-render.renderAndSave(f, "case_plug_top.stl", 0.3)
+render.renderAndSave(f, "case_plug_top.stl", 0.2)
 
 
