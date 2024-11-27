@@ -41,7 +41,7 @@ def case_bottom(x, y, z):
     bodybtm = bd.fz_cuboid((x+9.5,ya,z-6), (48., 31.,23.), 1.5)
     pcbtm = bd.fz_cuboid((x+22,ya,z-7.4), (8.,30.,16.5),0.5)
     scbtm = bd.fz_cuboid((x-5,ya,z-6.4), (8.,29.,16.5),0.5)
-    conholeinf = bd.fz_circle((min(z,-2)+2+max(z,4)-4,max(ya,7-z/5)-7+z/5),1.5)
+    conholeinf = bd.fz_circle((min(z,-3)+3+max(z,5)-5,max(ya,8-z/5)-8+z/5),1.5)
     conhole = cmb.fz_and_chamfer(0.5, conholeinf, x)
 
     bottom = cmb.fz_and_chamfer(0.5, bodybtm, 0.1-top, -mcbtm, -ccbtm, -pcbtm, -scbtm, -conhole, -hole)
@@ -51,7 +51,7 @@ def case_bottom(x, y, z):
     return True
 
 res = 0.2
-render.renderAndSave(case_top, "case_plug_top.stl", res)
+#render.renderAndSave(case_top, "case_plug_top.stl", res)
 render.renderAndSave(case_bottom, "case_plug_bottom.stl", res)
 
 
