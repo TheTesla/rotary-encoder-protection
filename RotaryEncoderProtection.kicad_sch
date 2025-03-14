@@ -19,25 +19,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at 5.08 -1.2701 0)
+			(property "Reference" "J"
+				(at 0 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "DE9_Plug_MountingHoles"
-				(at 5.08 1.2699 0)
+				(at 0 14.605 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "D09P33E4GL00LF_b:AMPHENOL_D09P33E4GL00LF"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -46,7 +44,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C120/DBR1-MXX-L.pdf"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,15 +54,6 @@
 				)
 			)
 			(property "Description" "9-pin male plug pin D-SUB connector, Mounting Hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Reichelt.de" "D-SUB ST 09US"
 				(at 0 0 0)
 				(effects
 					(font
@@ -476,24 +465,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 15.24 270)
-					(length 3.81)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -15.24 90)
 					(length 3.81)
 					(name "PAD"
@@ -503,7 +474,7 @@
 							)
 						)
 					)
-					(number "SH1"
+					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2117,12 +2088,6 @@
 		(uuid "aa51241c-59ea-47cf-afc3-9cd4c096fb45")
 	)
 	(junction
-		(at 60.96 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b52fca36-d2d8-4cdd-b102-6cf7683d8e1f")
-	)
-	(junction
 		(at 73.66 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2195,16 +2160,6 @@
 			(type default)
 		)
 		(uuid "03e0e227-fcdc-4a9b-ac57-150fbb457451")
-	)
-	(wire
-		(pts
-			(xy 53.34 53.34) (xy 53.34 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "053691b3-d817-4699-80b6-3a6c754c3a8f")
 	)
 	(wire
 		(pts
@@ -2288,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 73.66 76.2)
+			(xy 69.85 76.2) (xy 73.66 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2318,16 +2273,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 90.17) (xy 171.45 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a6f3fd7-1c00-45ce-9e9f-1b8dd1f232d6")
-	)
-	(wire
-		(pts
 			(xy 104.14 43.18) (xy 104.14 49.53)
 		)
 		(stroke
@@ -2348,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 66.04) (xy 73.66 66.04)
+			(xy 69.85 66.04) (xy 73.66 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2418,7 +2363,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 58.42) (xy 73.66 58.42)
+			(xy 69.85 58.42) (xy 73.66 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2458,23 +2403,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 68.58) (xy 73.66 68.58)
+			(xy 69.85 68.58) (xy 73.66 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "55aad570-3727-4f98-911c-5e053ec51304")
-	)
-	(wire
-		(pts
-			(xy 53.34 90.17) (xy 60.96 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "589b260a-0f88-41c5-8228-7818001f8a6f")
 	)
 	(wire
 		(pts
@@ -2498,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 66.04) (xy 73.66 63.5)
+			(xy 73.66 63.5) (xy 73.66 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2535,16 +2470,6 @@
 			(type default)
 		)
 		(uuid "6a7b63f6-3f71-4c08-8914-1a6636baaf8f")
-	)
-	(wire
-		(pts
-			(xy 60.96 53.34) (xy 53.34 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f499bdf-b6a8-4182-881a-b619fdb4523e")
 	)
 	(wire
 		(pts
@@ -2588,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 78.74) (xy 73.66 78.74)
+			(xy 69.85 78.74) (xy 73.66 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2638,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 71.12) (xy 73.66 71.12)
+			(xy 69.85 71.12) (xy 73.66 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2655,6 +2580,16 @@
 			(type default)
 		)
 		(uuid "9259a65c-2a20-4906-9f27-f833ac2aa454")
+	)
+	(wire
+		(pts
+			(xy 62.23 90.17) (xy 171.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9602e64c-8c58-432d-b6c9-ada4a96b8138")
 	)
 	(wire
 		(pts
@@ -2708,7 +2643,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 63.5) (xy 73.66 63.5)
+			(xy 69.85 63.5) (xy 73.66 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2778,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 73.66) (xy 73.66 73.66)
+			(xy 69.85 73.66) (xy 73.66 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2828,7 +2763,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 60.96) (xy 73.66 58.42)
+			(xy 73.66 58.42) (xy 73.66 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2838,7 +2773,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 60.96) (xy 68.58 60.96)
+			(xy 73.66 60.96) (xy 69.85 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2928,7 +2863,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 83.82) (xy 60.96 90.17)
+			(xy 62.23 83.82) (xy 62.23 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3536,7 +3471,7 @@
 	)
 	(symbol
 		(lib_id "Connector:DE9_Plug_MountingHoles")
-		(at 60.96 68.58 0)
+		(at 62.23 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3545,7 +3480,7 @@
 		(dnp no)
 		(uuid "515c295d-dad5-489e-a9c0-3c6bdd5d977d")
 		(property "Reference" "J1"
-			(at 55.88 69.8501 0)
+			(at 57.15 69.8501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3489,7 @@
 			)
 		)
 		(property "Value" "DE9_Plug_MountingHoles"
-			(at 71.882 48.006 0)
+			(at 57.15 67.3101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,8 +3497,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "D09P33E4GL00LF_b:AMPHENOL_D09P33E4GL00LF"
-			(at 60.96 68.58 0)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3507,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C120/DBR1-MXX-L.pdf"
-			(at 60.96 68.58 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3516,7 @@
 			)
 		)
 		(property "Description" "9-pin male plug pin D-SUB connector, Mounting Hole"
-			(at 60.96 68.58 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,15 +3524,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey.de" "D09P33E4GL00LF-ND"
-			(at 60.706 51.054 0)
+		(property "Reichelt.de" "D-SUB ST 09US"
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "SH1"
+		(pin "0"
 			(uuid "4e60713c-1180-4c0e-b5e0-449f9b594b5c")
 		)
 		(pin "8"
@@ -3626,9 +3562,6 @@
 		)
 		(pin "6"
 			(uuid "98cb32e1-898d-4d66-85fb-a68c966bf9d8")
-		)
-		(pin "SH2"
-			(uuid "d8453b59-df3b-4f4f-bb3e-21f768a74832")
 		)
 		(instances
 			(project ""
