@@ -8,6 +8,7 @@ path = [
     "gen/**",
     "bom.csv",
     "README.md",
+    "okh.toml",
     "old/**",
 ]
 SPDX-FileCopyrightText = "2025 Stefan Helmert <stefan.helmert@htw-dresden.de>"

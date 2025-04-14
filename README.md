@@ -6,6 +6,8 @@ This board protects the rotary encoder against reverse polarity and short overvo
 
 Direct connection to ICs with a low voltage tolerance at the inputs is possible, because the clamp diodes in the IC will limit the voltage from the high impedance outputs of the board. 
 
+![3d rendered image of the assembled pcb](gen/elec/RotaryEncoderProtection.png)
+
 ## Associated Projects
 
 That protection board is part of the plug at the rotary encoder cable. It is intended to be connected to the logic board, which implements the data processing:
